@@ -1,4 +1,6 @@
-buildscript {
+buildscript { 
+    ext.kotlin_version = '1.3.40'
+
     apply from: "${rootDir}/gradle/dependencies.gradle"
 
     repositories {
@@ -13,7 +15,7 @@ buildscript {
         classpath dependenciesList.artifactoryPlugin
         classpath dependenciesList.androidPublishPlugin
         classpath dependenciesList.jacocoPlugin
-    }
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" }
 }
 
 allprojects {
@@ -35,4 +37,4 @@ subprojects {
 // Load build system information. If this file does not exist, run
 // `make platform/android/gradle/configuration.gradle`
 apply from: "${rootDir}/gradle/configuration.gradle"
-apply from: "${rootDir}/gradle/download-schema.gradle"
+apply from: "${rootDir}/gradle/download-schema.gradle" 
