@@ -8,7 +8,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.android.tools.build:gradle:3.4.0'
         classpath dependenciesList.licensesPlugin
         classpath dependenciesList.kotlinPlugin
         classpath dependenciesList.bintrayPlugin
@@ -37,4 +37,3 @@ subprojects {
 // Load build system information. If this file does not exist, run
 // `make platform/android/gradle/configuration.gradle`
 apply from: "${rootDir}/gradle/configuration.gradle"
-apply from: "${rootDir}/gradle/download-schema.gradle" 

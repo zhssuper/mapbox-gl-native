@@ -2,8 +2,8 @@ package com.soy.android.maps.livedata
 
 import android.location.Location
 import androidx.lifecycle.Observer
-import com.example.mapbox.livedata.HeadingSensorLiveData
-import com.example.mapbox.livedata.LocationWithHeadingLiveData
+import com.mapbox.mapboxsdk.wearapp.livedata.HeadingSensorLiveData
+import com.mapbox.mapboxsdk.wearapp.livedata.LocationWithHeadingLiveData
 import javax.inject.Inject
 
 class MapViewSensors

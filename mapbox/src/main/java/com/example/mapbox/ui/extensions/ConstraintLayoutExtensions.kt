@@ -1,4 +1,4 @@
-package com.example.mapbox.ui.extensions
+package com.mapbox.mapboxsdk.wearapp.ui.extensions
 
 import android.support.constraint.ConstraintLayout
 import android.support.constraint.ConstraintSet

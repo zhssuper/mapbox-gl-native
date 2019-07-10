@@ -1,8 +1,8 @@
 package com.soy.android.maps.breadcrumb
 
 import android.content.res.Resources
-import com.example.mapbox.breadcrumb.ExerciseEngineState
-import com.example.mapbox.ui.MapboxMapView
+import com.mapbox.mapboxsdk.wearapp.breadcrumb.ExerciseEngineState
+import com.mapbox.mapboxsdk.wearapp.ui.MapboxMapView
 import com.mapbox.mapboxsdk.geometry.LatLng
 import com.mapbox.mapboxsdk.location.OnLocationStaleListener
 import com.mapbox.mapboxsdk.maps.MapboxMap

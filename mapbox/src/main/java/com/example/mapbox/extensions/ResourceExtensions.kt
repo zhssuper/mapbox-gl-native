@@ -1,4 +1,4 @@
-package com.example.mapbox.extensions
+package com.mapbox.mapboxsdk.wearapp.extensions
 
 import android.content.res.Resources
 import android.graphics.Bitmap

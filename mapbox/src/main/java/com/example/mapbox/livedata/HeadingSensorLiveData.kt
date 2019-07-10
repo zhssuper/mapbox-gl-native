@@ -1,7 +1,7 @@
-package com.example.mapbox.livedata
+package com.mapbox.mapboxsdk.wearapp.livedata
 
 import androidx.lifecycle.LiveData
-import com.example.mapbox.mockdata.MockHeadingSensor
+import com.mapbox.mapboxsdk.wearapp.mockdata.MockHeadingSensor
 import kotlinx.coroutines.*
 import javax.inject.Inject
 

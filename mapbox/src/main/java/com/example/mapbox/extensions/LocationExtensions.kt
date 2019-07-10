@@ -1,4 +1,4 @@
-package com.example.mapbox.extensions
+package com.mapbox.mapboxsdk.wearapp.extensions
 
 import android.location.Location
 import com.mapbox.mapboxsdk.geometry.LatLng

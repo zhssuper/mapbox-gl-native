@@ -1,7 +1,7 @@
 package com.soy.android.maps.breadcrumb
 
-import com.example.mapbox.ui.PAUSE_LINE_PATTERN
-import com.example.mapbox.ui.START_SYMBOL_ICON_ID
+import com.mapbox.mapboxsdk.wearapp.ui.PAUSE_LINE_PATTERN
+import com.mapbox.mapboxsdk.wearapp.ui.START_SYMBOL_ICON_ID
 import com.mapbox.mapboxsdk.geometry.LatLng
 import com.mapbox.mapboxsdk.plugins.annotation.*
 import com.mapbox.mapboxsdk.style.layers.Property

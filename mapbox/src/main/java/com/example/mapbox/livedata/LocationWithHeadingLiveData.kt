@@ -1,4 +1,4 @@
-package com.example.mapbox.livedata
+package com.mapbox.mapboxsdk.wearapp.livedata
 
 import android.location.Location
 import androidx.lifecycle.MediatorLiveData

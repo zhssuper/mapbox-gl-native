@@ -1,5 +1,5 @@
-import com.example.mapbox.MainActivityModule
-import com.example.mapbox.MapboxApp
+import com.mapbox.mapboxsdk.wearapp.MainActivityModule
+import com.mapbox.mapboxsdk.wearapp.MapboxApp
 import dagger.Component
 import dagger.android.AndroidInjector
 import dagger.android.support.AndroidSupportInjectionModule

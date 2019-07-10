@@ -1,4 +1,4 @@
-package com.example.mapbox
+package com.mapbox.mapboxsdk.wearapp
 
 import android.annotation.SuppressLint
 import android.location.Location
@@ -9,8 +9,8 @@ import android.support.wearable.activity.WearableActivity
 import android.util.Log
 import android.widget.Toast
 import androidx.lifecycle.Observer
-import com.example.mapbox.ui.MapboxMapView
-import com.example.mapbox.ui.extensions.addViewAndMatchItToParent
+import com.mapbox.mapboxsdk.wearapp.ui.MapboxMapView
+import com.mapbox.mapboxsdk.wearapp.ui.extensions.addViewAndMatchItToParent
 import com.mapbox.android.core.permissions.PermissionsListener
 import com.mapbox.android.core.permissions.PermissionsManager
 import com.mapbox.mapboxsdk.Mapbox

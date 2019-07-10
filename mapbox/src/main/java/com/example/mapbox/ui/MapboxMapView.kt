@@ -1,4 +1,4 @@
-package com.example.mapbox.ui
+package com.mapbox.mapboxsdk.wearapp.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,10 +7,10 @@ import android.location.Location
 import android.view.Gravity
 import android.view.MotionEvent
 import android.view.View
-import com.example.mapbox.R
-import com.example.mapbox.breadcrumb.ExerciseEngineState
-import com.example.mapbox.extensions.getBitmapFromDrawable
-import com.example.mapbox.extensions.latLong
+import com.mapbox.mapboxsdk.wearapp.R
+import com.mapbox.mapboxsdk.wearapp.breadcrumb.ExerciseEngineState
+import com.mapbox.mapboxsdk.wearapp.extensions.getBitmapFromDrawable
+import com.mapbox.mapboxsdk.wearapp.extensions.latLong
 import com.mapbox.mapboxsdk.camera.CameraPosition
 import com.mapbox.mapboxsdk.camera.CameraUpdateFactory
 import com.mapbox.mapboxsdk.geometry.LatLng

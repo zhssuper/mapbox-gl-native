@@ -1,4 +1,4 @@
-package com.example.mapbox.mockdata
+package com.mapbox.mapboxsdk.wearapp.mockdata
 
 import javax.inject.Inject
 

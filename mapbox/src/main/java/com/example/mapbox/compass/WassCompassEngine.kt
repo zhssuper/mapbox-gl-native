@@ -2,7 +2,7 @@ package com.soy.android.maps.compass
 
 import android.hardware.SensorManager.SENSOR_STATUS_ACCURACY_HIGH
 import androidx.lifecycle.Observer
-import com.example.mapbox.livedata.HeadingSensorLiveData
+import com.mapbox.mapboxsdk.wearapp.livedata.HeadingSensorLiveData
 import com.mapbox.mapboxsdk.location.CompassEngine
 import com.mapbox.mapboxsdk.location.CompassListener
 
