@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="map_accuracy">#1EB3EA</color>
+    <color name="base_black">#000000</color>
+    <color name="base_red">#ff5640</color>
+    <color name="base_white">#ffffff</color>
+</resources>

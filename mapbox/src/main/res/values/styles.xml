@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mapbox Location Component attributes -->
+    <style name="mapbox_location" parent="mapbox_location_common">
+        <item name="mapbox_foregroundDrawable">@drawable/ic_map_location_indicator_icon</item>
+        <item name="mapbox_backgroundDrawable">@drawable/ic_map_location_indicator_bg</item>
+        <item name="mapbox_bearingDrawable">@drawable/ic_map_location_indicator_icon</item>
+        <item name="mapbox_gpsDrawable">@drawable/ic_map_location_indicator_icon</item>
+        <item name="mapbox_foregroundDrawableStale">@drawable/ic_map_location_indicator_icon</item>
+        <item name="mapbox_backgroundDrawableStale">@drawable/ic_map_location_indicator_bg</item>
+    </style>
+
+    <!-- Mapbox Location Component attributes when Rendering mode is GPS and location is stale -->
+    <style name="mapbox_stale_location" parent="mapbox_location_common">
+        <item name="mapbox_foregroundDrawable">@drawable/ic_map_location_indicator_stale</item>
+        <item name="mapbox_backgroundDrawable">@drawable/ic_map_location_indicator_bg_stale</item>
+        <item name="mapbox_bearingDrawable">@drawable/ic_map_location_indicator_stale</item>
+        <item name="mapbox_gpsDrawable">@drawable/ic_map_location_indicator_stale</item>
+        <item name="mapbox_foregroundDrawableStale">@drawable/ic_map_location_indicator_stale</item>
+        <item name="mapbox_backgroundDrawableStale">@drawable/ic_map_location_indicator_bg_stale</item>
+    </style>
+
+    <style name="mapbox_location_common">
+        <item name="mapbox_uiZoomGestures">false</item>
+        <item name="mapbox_uiCompass">false</item>
+        <item name="mapbox_uiAttribution">false</item>
+        <item name="mapbox_uiLogo">false</item>
+        <item name="mapbox_uiRotateGestures">false</item>
+        <item name="mapbox_accuracyAlpha">0.2</item>
+        <item name="mapbox_accuracyAnimationEnabled">true</item>
+        <item name="mapbox_accuracyColor">@color/map_accuracy</item>
+        <item name="mapbox_trackingGesturesManagement">true</item>
+        <item name="mapbox_renderTextureMode">true</item>
+        <item name="mapbox_enableStaleState">true</item>
+        <item name="mapbox_staleStateTimeout">2000</item>
+    </style>
+</resources>

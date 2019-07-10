@@ -16,6 +16,7 @@ import com.mapbox.android.core.permissions.PermissionsManager
 import com.mapbox.mapboxsdk.Mapbox
 import com.mapbox.mapboxsdk.maps.MapboxMap
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback
+import com.mapbox.mapboxsdk.testapp.R
 import com.soy.android.maps.compass.WassCompassEngine
 import com.soy.android.maps.livedata.MapViewSensors
 import dagger.android.AndroidInjection
